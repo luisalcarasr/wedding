@@ -11,6 +11,8 @@ export const Timer = () => {
 
     const interval = setInterval(() => {
       const now = new Date();
+
+      // @ts-expect-error Timer
       const difference = targetDate - now;
 
       setDays(Math.floor(difference / (1000 * 60 * 60 * 24)));

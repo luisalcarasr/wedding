@@ -1,6 +1,3 @@
-import flower from "../assets/flower.png";
-import leafs from "../assets/leafs.png";
-
 export const Date = () => {
   return (
     <section className="relative min-h-screen flex flex-col justify-center">
