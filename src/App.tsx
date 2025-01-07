@@ -3,6 +3,7 @@ import { Cover } from "./sections/Cover";
 import { Date } from "./sections/Date";
 import { Gifts } from "./sections/Gifts";
 import { Location } from "./sections/Location";
+import { Photos } from "./sections/Photos";
 import { Timer } from "./sections/Timer";
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <Location />
       <Gifts />
       <Agenda />
+      <Photos />
       <Timer />
     </div>
   );

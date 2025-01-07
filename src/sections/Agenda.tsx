@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
-import { GiBigDiamondRing, GiRedCarpet, GiWineGlass } from "react-icons/gi";
+import { BsCake } from "react-icons/bs";
+import { GiBigDiamondRing, GiForkKnifeSpoon, GiPhotoCamera, GiRedCarpet, GiWineGlass } from "react-icons/gi";
 
 type AgendaItemProps = {
   icon: ReactElement;
@@ -31,24 +32,39 @@ export const Agenda = () => {
           Queremos que disfrutes cada momento con nosotros. Aquí tienes los
           detalles para que no te pierdas nada:
         </p>
-
         <AgendaItem
           icon={<GiBigDiamondRing size={64} />}
           time="13:00"
           title="Registro Civil"
         />
-
         <AgendaItem
           icon={<GiRedCarpet size={64} />}
           time="16:30"
           title="Recepción"
         />
-
+        <AgendaItem
+          icon={<GiPhotoCamera size={64} />}
+          time="16:45"
+          title="Fotos"
+        />
+        <AgendaItem
+          icon={<GiForkKnifeSpoon size={64} />}
+          time="17:30"
+          title="Cena"
+        />
         <AgendaItem
           icon={<GiWineGlass size={64} />}
           time="17:00"
           title="Brindis"
         />
+        <AgendaItem
+          icon={<BsCake size={64} />}
+          time="19:00"
+          title="Pastel"
+        />
+      </div>
+      <div className="text-center mt-16 font-cinzel text-2xl">
+        <p className="">Confirma tu asistencia</p>
       </div>
     </section>
   );
