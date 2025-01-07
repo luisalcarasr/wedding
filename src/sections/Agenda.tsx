@@ -48,14 +48,14 @@ export const Agenda = () => {
           title="Fotos"
         />
         <AgendaItem
-          icon={<GiForkKnifeSpoon size={64} />}
-          time="17:30"
-          title="Cena"
-        />
-        <AgendaItem
           icon={<GiWineGlass size={64} />}
           time="17:00"
           title="Brindis"
+        />
+        <AgendaItem
+          icon={<GiForkKnifeSpoon size={64} />}
+          time="17:30"
+          title="Comida"
         />
         <AgendaItem
           icon={<BsCake size={64} />}
