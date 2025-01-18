@@ -7,7 +7,7 @@ export const Timer = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const targetDate = new Date("2025-01-16T04:30:00-06:00"); // Hora estándar del centro (CST)
+    const targetDate = new Date("2025-01-16T16:30:00-06:00"); // Hora estándar del centro (CST)
 
     const interval = setInterval(() => {
       const now = new Date();
